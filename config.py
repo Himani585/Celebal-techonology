@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
-GROQ_API_KEY   = "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"
+GROQ_API_KEY  = os.getenv("GROQ_API_KEY", "")
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # ── Embeddings ────────────────────────────────────────────────────────────────
