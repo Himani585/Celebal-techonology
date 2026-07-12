@@ -66,6 +66,3 @@ Answer + Sources + Evaluation
 
 ## Download Sample Brochure
 https://www.hyundai.com/in/en/find-a-car/creta/highlights
-
-## Note: Get a free Groq API key from https://console.groq.com 
-and add it to .env file as GROQ_API_KEY=your_key
